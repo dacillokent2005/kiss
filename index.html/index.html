@@ -1,90 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-   
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <title>My Portfolio: A Journey of Learning &amp; Growth</title>
+    <title>My Portfolio: A Journey of Learning & Growth</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        body {
-            font-family: 'Times New Roman', Times, serif;
+        
+body {
+         font-family: 'Arial', sans-serif;
             margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-
-        header {
-            background: purple;
+            padding: 0;         
             color: white;
-            padding: 20px 0;
+}
+        header {
+            background-color: burlywood;
+             padding: 20px 0;
             text-align: center;
         }
-
         h1 {
             margin: 0;
         }
-
         main {
+            background-color: burlywood;
             padding: 50px;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
         }
-
         article {
+            background-color: white;
             width: 100%;
             max-width: 900px;
-            background: aqua;
-            border-radius: 50px;
+            border-radius: 10px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            padding: 50px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            padding: 30px;
         }
-
         h2, h3 {
-            color: aqua;
+            color: black;
+            background-color: white;
             text-align: center;
         }
-
         section {
+            background-color: white;
             margin-bottom: 20px;
             text-align: center;
         }
-
-        section iframe {
-            display: block;
-            margin: 20px auto;
-        }
-
         footer {
             text-align: center;
             padding: 10px 0;
-            background: purple;
-            color: white;
             position: relative;
             bottom: 0;
             width: 100%;
         }
-        /* Make the image responsive */
         .responsive-image {
-            width: 100%; /* This ensures the image scales to fit its container */
-            height: auto; /* Keeps the aspect ratio intact */
-            }
-
-/* Optional: Style for the section */
-        section {
-           text-align: center;
-           margin: 20px auto;
-           max-width: 800px; /* Optional: Set max width for the section */
-           }
-
+            width: 100%;
+            height: auto;
+        }
+        .About{
+            text-align: center;
+            flex: auto;
+        }
+        
+       p{
+        background-color: white;
+        color: black;
+       }
     </style>
 </head>
 <body>
@@ -94,31 +77,55 @@
     <main>
         <article>
             <h2>MY PERSONAL PORTFOLIO BLOG</h2>
+            <nav>
+                <ul>
+                    <li><a href="homepage.html">Homepage</a></li>
+                    <li><a href="about us.html">About Us</a></li>
+                    <li><a href="contact us.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <br>
             <section>
                 <h3>LEARNING RESOURCES</h3>
                 <p><b>CHECK OUT THIS AMAZING VIDEO CODE:</b>
                     <a href="https://youtu.be/HD13eq_Pmp8?si=dphblwCjRYKW46pK" target="_blank"> YOUTUBE </a>
                 </p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/HD13eq_Pmp8?si=Y1ueZ1PTyG-MHlRM" 
-                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                </iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HD13eq_Pmp8" 
+                        title="YouTube video player" frameborder="0" allowfullscreen></iframe>
             </section>
+            <br><br>
             <section>
                 <h3>UNIVERSITY LOCATION</h3>
                 <p><b>FIND MY UNIVERSITY ON THE MAP BELOW:</b></p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.016592599999!2d123.89403942266819!3d10.294386942607657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99bfcc60d650d%3A0x5ee73506c68dd233!2sCebu%20Eastern%20College%20Cebu%20city!5e0!3m2!1sen!2sph!4v1741867851499!5m2!1sen!2sph" 
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                </iframe>   
+                        width="600" height="450" style="border:0;" allowfullscreen loading="lazy"></iframe>   
             </section>  
+
+            <br><br>
+    
             <section>
-                <h3>PA KISS KO SIR BI </h3>
-                <p style="color: black;">KISS KO 👉🥺👈</p>
-                <!-- Make the image responsive -->
-                <img src="image-map.png" alt="Clickable Image Map" usemap="#image-map" class="responsive-image">
-                <map name="image-map">
-                    <!-- Adjust coordinates based on the image size -->
+                <h3>This Is Me The Wanderer HeHeHe!!!</h3>
+                <p style="color: black;"></p>
+                <img src="kent.jpg" alt="Clickable Image Map" usemap="#image-map" class="responsive-image">
+                <map name="kent.jpg" width="600" height="450" style="border: 0;">
                     <area shape="rect" coords="34,44,270,350" href="https://www.resource1.com" alt="Resource 1">
                     <area shape="rect" coords="290,172,333,250" href="https://www.resource2.com" alt="Resource 2">
                 </map>
             </section>
+        </article>
+    </main>
+    <div style="flex: auto; size: 10px;">
+        <h2>This Is My Favorite Emoji</h2>
+       <li>&#128508;</li> 
+       <li>&#128512;</li> 
+       <li>&#128513;</li> 
+       <li>&#128514;</li> 
+       <li>&#128515;</li> 
+       <li>&#128507;</li> 
+    </div>
+    <footer>
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
